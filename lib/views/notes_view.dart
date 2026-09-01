@@ -10,6 +10,8 @@ class notes_view extends StatelessWidget {
     return Scaffold(
   
       body: NotesViewBody(), 
+      
+
       );
 
     
