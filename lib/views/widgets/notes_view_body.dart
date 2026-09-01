@@ -18,6 +18,7 @@ class NotesViewBody extends StatelessWidget {
                
           CustomAppBar(), 
           Expanded(child: NoteListView()), 
+           
 
 
           
@@ -30,5 +31,4 @@ class NotesViewBody extends StatelessWidget {
     );
   }
 }
-
 
