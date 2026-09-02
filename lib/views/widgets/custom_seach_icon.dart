@@ -10,7 +10,7 @@ class customSeachIcon extends StatelessWidget {
       width: 47,
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.05),
-        borderRadius: BorderRadius.circular(16)
+        borderRadius: BorderRadius.circular(16   )
 
 
       ),

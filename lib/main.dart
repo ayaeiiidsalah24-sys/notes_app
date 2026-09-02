@@ -11,9 +11,10 @@ class app extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
    return MaterialApp(
+    // text takes its defauly value from theme
   theme: ThemeData(
-    brightness: Brightness.dark ,
-    fontFamily: 'Poppins', 
+    brightness:  Brightness.dark, 
+    fontFamily: 'Poppins'
   ),
     home: const NotesView(),
 
