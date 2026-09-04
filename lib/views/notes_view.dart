@@ -32,5 +32,3 @@ class NotesView extends StatelessWidget {
     
   }
 }
-
-
