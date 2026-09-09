@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:note_app/views/edit_note_view.dart';
 import 'package:note_app/views/widgets/edit_view_body.dart';
 
 class NoteItem extends StatelessWidget {
@@ -9,7 +10,7 @@ class NoteItem extends StatelessWidget {
     return GestureDetector(
       onTap: (){
         Navigator.push(context, MaterialPageRoute(builder: (context){
-          return EditNoteViewBody();
+          return  const EditNoteView();
         }
         ),
         );

@@ -11,6 +11,7 @@ class app extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
    return MaterialApp(
+    debugShowCheckedModeBanner: false,
     // text takes its defauly value from theme
   theme: ThemeData(
     brightness:  Brightness.dark, 
